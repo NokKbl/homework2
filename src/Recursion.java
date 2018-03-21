@@ -72,7 +72,7 @@ public class Recursion {
 		
 		// fibonacci problem
 		System.out.println(fibonacci(48));
-		//System.out.println(oldFibonacci(48));
+		System.out.println(oldFibonacci(48));
 	}
 
 }
