@@ -55,6 +55,7 @@ public class Recursion {
 	}
 	
 	public static void main(String[] args) {
+		//Unique problem
 		List<String> s = new ArrayList<String>();
 		
 		s.add("a");
@@ -65,12 +66,11 @@ public class Recursion {
 		s.add("b");
 		s.add("c");
 		s.add("c");
-		
 		System.out.println(Arrays.toString(s.toArray()));
 		unique(s);
 		System.out.println(Arrays.toString(s.toArray()));
 		
-		// fibonacci problem
+		// Fibonacci problem
 		System.out.println(fibonacci(48));
 		System.out.println(oldFibonacci(48));
 	}
